@@ -11,6 +11,11 @@ public class VariableManipulation {
         System.out.println("variable a is :" +a);
         System.out.println("variable b is :" +b);
 
+        // square of no..
+
+        int square = a*a;
+        System.out.println(" square of a is :" +square);
+
         //addition
 
         int add = a+b;

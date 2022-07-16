@@ -10,6 +10,13 @@ public class VariableDay3 {
 
         System.out.println("variable a is :"+a);
         System.out.println("variable  b is:"+b);
+
+        //square
+
+        double square = a*a;
+        System.out.println("Square of a is :" +square);
+
+
         //add
 
         double add = a+b;
@@ -52,6 +59,11 @@ public class VariableDay3 {
         b--;
         System.out.println(" decrement of b is :"+b);
 
+
+        char as ='Z';
+
+        as--;
+        System.out.println("decrement of char as variable is :" +as);
 
 
 
