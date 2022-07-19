@@ -1,6 +1,5 @@
 package assignment.practise;
 
-import java.sql.SQLOutput;
 
 public class Java1 {
 
