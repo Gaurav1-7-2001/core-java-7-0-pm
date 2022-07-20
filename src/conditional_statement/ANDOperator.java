@@ -1,6 +1,6 @@
 package conditional_statement;
 
-public class DemoMultipleIf {
+public class ANDOperator {
 
     public static void main(String[] args) {
 

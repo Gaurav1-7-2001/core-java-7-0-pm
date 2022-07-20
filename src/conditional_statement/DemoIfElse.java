@@ -10,6 +10,9 @@ public class DemoIfElse {
 
             System.out.println("your marks is greater than the 70");
         }
+        else{
+            System.out.println(" your marks is less than 70");
+        }
 
     }
 

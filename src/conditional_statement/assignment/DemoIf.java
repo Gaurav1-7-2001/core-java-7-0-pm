@@ -1,4 +1,4 @@
-package assignment;
+package conditional_statement.assignment;
 
 public class DemoIf {
 
@@ -10,11 +10,14 @@ public class DemoIf {
 
             System.out.println("first division");
         }
+
+        marks=60;
         if(marks>50){
 
             System.out.println("second division");
         }
 
+        marks=50;
         if(marks>40){
 
             System.out.println("third division");

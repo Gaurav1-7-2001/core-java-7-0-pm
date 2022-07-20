@@ -1,6 +1,6 @@
-package assignment;
+package conditional_statement.assignment;
 
-public class IfAssignment {
+public class AndAssignment {
 
     public static void main(String[] args) {
 
