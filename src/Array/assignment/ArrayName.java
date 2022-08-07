@@ -24,6 +24,7 @@ public class ArrayName {
 
 
         // advance loop
+        // todo Syntax : for(data_type var_name : array_name){code}
 
         for ( String var : name){
 

@@ -22,6 +22,7 @@ public class ArrayInt {
         }
 
         //by advance loop
+        // todo Syntax : for(data_type var_name : array_name){code}
 
         for ( int var :marks){
 

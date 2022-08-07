@@ -24,7 +24,7 @@ public class ArrayDoouble {
         }
 
         // advance loop
-
+        // todo Syntax : for(data_type var_name : array_name){code}
         for ( Double var : price){
 
             System.out.println(" price by using advance loop.." +var);
