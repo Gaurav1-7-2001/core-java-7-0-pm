@@ -2,39 +2,34 @@ package model;
 
 import java.util.Objects;
 
-public class Employee {
+public class Engineer {
 
     String name;
-    int id;
-    int salary;
     String dept;
-
-    //hash code and equal method
-
+    int salary;
+    int id;
 
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        Employee employee = (Employee) o;
-        return id == employee.id && Objects.equals(name, employee.name) && Objects.equals(dept, employee.dept);
+        Engineer engineer = (Engineer) o;
+        return salary == engineer.salary && id == engineer.id && name.equals(engineer.name) && dept.equals(engineer.dept);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(name, id, dept);
+        return Objects.hash(name, dept, salary, id);
     }
 
     //parameterized constructor
-    public Employee(String name, int id, int salary, String dept) {
+    public Engineer(String name, String dept, int salary, int id) {
         this.name = name;
-        this.id = id;
-        this.salary = salary;
         this.dept = dept;
+        this.salary = salary;
+        this.id = id;
     }
-
-    //getter and setter method
-
+//getter and setter
     public String getName() {
         return name;
     }
@@ -43,12 +38,12 @@ public class Employee {
         this.name = name;
     }
 
-    public int getId() {
-        return id;
+    public String getDept() {
+        return dept;
     }
 
-    public void setId(int id) {
-        this.id = id;
+    public void setDept(String dept) {
+        this.dept = dept;
     }
 
     public int getSalary() {
@@ -59,11 +54,11 @@ public class Employee {
         this.salary = salary;
     }
 
-    public String getDept() {
-        return dept;
+    public int getId() {
+        return id;
     }
 
-    public void setDept(String dept) {
-        this.dept = dept;
+    public void setId(int id) {
+        this.id = id;
     }
 }
