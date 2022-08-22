@@ -1,11 +1,18 @@
 package Array.assignment;
 
+import java.util.Scanner;
+
 public class ArrayRevision {
 
     public static void main(String[] args) {
 
-//        Array is
+        Scanner sc =new Scanner(System.in);
+        System.out.println("add data Name");
 
-//        int a[] ={" "};
+        String name =sc.nextLine();
+
+//        String name1[] =length.name();
+
+
     }
 }
