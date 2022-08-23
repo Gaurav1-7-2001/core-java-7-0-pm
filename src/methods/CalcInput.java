@@ -1,6 +1,8 @@
 package methods;
 
-public class CalcInput {
+import oops.inheritance.A;
+
+public class CalcInput extends A {
 
     public void add(int a, int b ,int c,int d){
         int sum =a+b+c+d;
@@ -23,6 +25,13 @@ public class CalcInput {
         obj.sub(6,7,8,2);
         obj.multiply(4,5,2);
         obj.divide(12,2,6,2);
+
+        System.out.println("i call the method of class A from other package(oops.inheritance)");
+        obj.m1();
+        obj.m2();
+
+
+
     }
 
 }

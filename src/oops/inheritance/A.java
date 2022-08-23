@@ -18,12 +18,12 @@ public class A {
     String name ="gaurav baghel";
     int age =22;
 
-    public void m1(){
+     protected void m1(){
 
         System.out.println("this is call from m1 method");
     }
 
-    public void m2(){
+    protected void m2(){
         System.out.println("this method call from m2 method");
     }
 }
