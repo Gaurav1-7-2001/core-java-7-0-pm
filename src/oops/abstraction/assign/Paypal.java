@@ -1,6 +1,6 @@
-package oops.abstraction;
+package oops.abstraction.assign;
 
-public class Paypal extends Payment{
+public class Paypal extends Payment {
     @Override
     public double MoneyTransfer(double moneyTransfer) {
         System.out.println("print money transfer by the paypal :"+moneyTransfer);

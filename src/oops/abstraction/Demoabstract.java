@@ -25,6 +25,8 @@ public abstract class Demoabstract {
     public static void main(String args[]){
 
 //    Demoabstract obj =new Demoabstract();
+// todo : we cannot create the object of abstract class if we try  then we  got an error.
+
 }
 
 }

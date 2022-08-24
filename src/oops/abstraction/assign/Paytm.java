@@ -1,6 +1,6 @@
-package oops.abstraction;
+package oops.abstraction.assign;
 
-public class Paytm extends Payment{
+public class Paytm extends Payment {
     @Override
     public double MoneyTransfer( double moneyTransfer) {
 
